@@ -118,6 +118,38 @@ const About = () => {
           </div>
         </div>
       </section>
+          
+      {/* New Founder Section */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
+            {/* Founder Image */}
+            <div className="flex-shrink-0">
+              <img
+                src="./Photo.jpg" // Replace with the actual image path
+                alt="MD ARQAM"
+                className="rounded-lg shadow-lg w-48 h-48 object-cover"
+              />
+            </div>
+            {/* Founder Details */}
+            <div>
+              <h2 className="text-3xl font-bold text-gray-800 mb-2">
+                MD ARQAM, PhD
+              </h2>
+              <h3 className="text-xl text-primary-600 font-semibold mb-4">
+                Founder of Noble Quranic Academy
+              </h3>
+              <p className="text-lg text-gray-600 leading-relaxed">
+                Industrial & Islamic Economist, Economist, policy advisor, and
+                transformation leader with 15+ years of experience across
+                industry and academia. Dr. Arqam is passionate about combining
+                Islamic principles with modern economic practices to create a
+                positive impact on society.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* Values Section */}
       <section className="py-20 bg-accent/10">
